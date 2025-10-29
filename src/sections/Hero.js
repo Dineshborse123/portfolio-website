@@ -9,8 +9,8 @@ const Hero = () => {
   return (
     <section id="home" className="hero">
       <div className="container">
-        <h1>John Doe</h1>
-        <p>Full Stack Developer & UI/UX Enthusiast</p>
+        <h1>Dinesh Borse</h1>
+        <p>Full‑Stack Developer | B.Sc. IT (2025)</p>
         <p className="hero-description">
           I create beautiful, responsive web applications with modern technologies
         </p>

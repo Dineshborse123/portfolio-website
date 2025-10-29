@@ -2,9 +2,9 @@
 export const PROJECTS = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce solution with React, Node.js, and MongoDB featuring user authentication, payment processing, and admin dashboard.",
-    technologies: ["React", "Node.js", "MongoDB", "Express", "Stripe"],
+    title: "Online Loan Application & Verification System",
+    description: "B.Sc. IT academic project using React and Node.js. Users submit loan applications with document upload and basic KYC. Admins review, approve/reject, and update status. Focus on authentication, forms, and secure data storage.",
+    technologies: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "MongoDB"],
     image: "/images/project1.jpg",
     github: "https://github.com/username/ecommerce-platform",
     live: "https://ecommerce-demo.netlify.app",
@@ -13,9 +13,9 @@ export const PROJECTS = [
   },
   {
     id: 2,
-    title: "Task Management App",
-    description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-    technologies: ["React", "Firebase", "Material-UI", "Context API"],
+    title: "GYM Management System",
+    description: "College project to manage gym memberships, attendance, trainer schedules, and class bookings. Includes simple payment tracking and a clean dashboard. Built as part of B.Sc. IT coursework.",
+    technologies: ["HTML", "CSS", "JavaScript", "React", "Firebase"],
     image: "/images/project2.jpg",
     github: "https://github.com/username/task-manager",
     live: "https://taskapp-demo.netlify.app",
@@ -24,9 +24,9 @@ export const PROJECTS = [
   },
   {
     id: 3,
-    title: "Weather Dashboard",
-    description: "Real-time weather forecasting application with interactive maps, location-based services, and historical data visualization.",
-    technologies: ["React", "Chart.js", "OpenWeather API", "Leaflet"],
+    title: "Online Voting System",
+    description: "Academic project implementing secure voter registration with OTP verification and role-based access. Students cast votes once; admins see a live tally and basic audit logs. Built during B.Sc. IT.",
+    technologies: ["HTML", "CSS", "JavaScript", "React", "Node.js", "PostgreSQL"],
     image: "/images/project3.jpg",
     github: "https://github.com/username/weather-dashboard",
     live: "https://weather-dash-demo.netlify.app",
@@ -38,28 +38,24 @@ export const PROJECTS = [
 // Skills data
 export const SKILLS = {
   frontend: [
-    { name: "React", level: 90, category: "Frontend" },
-    { name: "JavaScript", level: 85, category: "Frontend" },
-    { name: "TypeScript", level: 80, category: "Frontend" },
-    { name: "HTML/CSS", level: 95, category: "Frontend" },
-    { name: "Tailwind CSS", level: 85, category: "Frontend" },
-    { name: "Redux", level: 75, category: "Frontend" }
+    { name: "HTML/CSS", level: 85, category: "Frontend" },
+    { name: "JavaScript", level: 75, category: "Frontend" },
+    { name: "React", level: 70, category: "Frontend" },
+    { name: "Bootstrap/Tailwind", level: 70, category: "Frontend" }
   ],
   backend: [
-    { name: "Node.js", level: 80, category: "Backend" },
-    { name: "Express", level: 75, category: "Backend" },
-    { name: "MongoDB", level: 70, category: "Backend" },
-    { name: "PostgreSQL", level: 65, category: "Backend" },
-    { name: "REST APIs", level: 85, category: "Backend" },
-    { name: "GraphQL", level: 60, category: "Backend" }
+    { name: "Node.js", level: 65, category: "Backend" },
+    { name: "Express", level: 60, category: "Backend" },
+    { name: "MongoDB", level: 60, category: "Backend" },
+    { name: "SQL (PostgreSQL/MySQL)", level: 60, category: "Backend" },
+    { name: "Java (Basics)", level: 55, category: "Backend" }
   ],
   tools: [
-    { name: "Git", level: 90, category: "Tools" },
-    { name: "Docker", level: 70, category: "Tools" },
-    { name: "AWS", level: 65, category: "Tools" },
-    { name: "Jest", level: 75, category: "Tools" },
-    { name: "Webpack", level: 70, category: "Tools" },
-    { name: "Figma", level: 80, category: "Tools" }
+    { name: "Git & GitHub", level: 80, category: "Tools" },
+    { name: "VS Code", level: 85, category: "Tools" },
+    { name: "Postman", level: 40, category: "Tools" },
+    { name: "Firebase", level: 35, category: "Tools" },
+    { name: "Netlify/Vercel", level: 40, category: "Tools" }
   ]
 };
 
@@ -68,8 +64,8 @@ export const SOCIAL_LINKS = {
   github: "https://github.com/yourusername",
   linkedin: "https://linkedin.com/in/yourusername",
   twitter: "https://twitter.com/yourusername",
-  email: "your.email@example.com",
-  phone: "+1 (555) 123-4567"
+  email: "dineshborse9321@gmail.com",
+  phone: "8591679694"
 };
 
 // Navigation items
@@ -87,36 +83,23 @@ export const RESUME_DATA = {
   experience: [
     {
       id: 1,
-      position: "Senior Frontend Developer",
-      company: "Tech Company Inc.",
-      period: "2022 - Present",
-      description: "Led frontend development for multiple client projects, implemented responsive designs, and mentored junior developers.",
+      position: "Fresher",
+      company: "Full‑Stack Web Developer (Seeking Opportunities)",
+      period: "2025 - Present",
+      description: "Entry‑level developer with academic experience in full‑stack projects and a focus on clean, responsive web apps.",
       achievements: [
-        "Improved application performance by 40%",
-        "Implemented CI/CD pipeline",
-        "Led team of 4 developers"
-      ]
-    },
-    {
-      id: 2,
-      position: "Frontend Developer",
-      company: "Startup XYZ",
-      period: "2020 - 2022",
-      description: "Developed and maintained React applications, collaborated with design team, and implemented new features.",
-      achievements: [
-        "Built 10+ reusable components",
-        "Reduced bundle size by 30%",
-        "Implemented testing suite"
+        "Built academic projects: Loan System, Gym Management, Voting System",
+        "Strengthening skills in React, Node.js, and Java"
       ]
     }
   ],
   education: [
     {
       id: 1,
-      degree: "Bachelor of Computer Science",
+      degree: "B.Sc. Information Technology",
       institution: "University of Technology",
-      period: "2016 - 2020",
-      description: "Graduated with honors. Focus on web technologies and software engineering."
+      period: "2022 - 2025",
+      description: "Coursework focused on web development, data structures, and software engineering fundamentals."
     }
   ]
 };

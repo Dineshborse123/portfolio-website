@@ -9,12 +9,10 @@ const About = () => {
         <div className="about-content">
           <div className="about-text">
             <p>
-              Hello! I'm John, a passionate full-stack developer with over 3 years of experience 
-              creating digital experiences. I specialize in React, Node.js, and modern web technologies.
+              Hello! I'm Dinesh Borse, a B.Sc. IT graduate. I am a full‑stack web developer, currently strengthening my skills and learning Java.
             </p>
             <p>
-              I love turning complex problems into simple, beautiful designs. When I'm not coding, 
-              you'll find me exploring new technologies, contributing to open-source projects, or hiking.
+              I focus on clean, responsive interfaces and building practical, end‑to‑end web features. Through academic and personal projects, I’m developing real‑world problem‑solving skills and solid fundamentals.
             </p>
             <div className="about-stats">
               <div className="stat">

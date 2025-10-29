@@ -5,26 +5,13 @@ const Resume = () => {
   const experience = [
     {
       id: 1,
-      position: "Senior Frontend Developer",
-      company: "Tech Company Inc.",
-      period: "2022 - Present",
-      description: "Led frontend development for multiple client projects, implemented responsive designs, and mentored junior developers.",
+      position: "Fresher",
+      company: "Full‑Stack Web Developer (Seeking Opportunities)",
+      period: "2025 - Present",
+      description: "Entry‑level developer with academic experience in full‑stack projects and a focus on building clean, responsive web applications.",
       achievements: [
-        "Improved application performance by 40%",
-        "Implemented CI/CD pipeline",
-        "Led team of 4 developers"
-      ]
-    },
-    {
-      id: 2,
-      position: "Frontend Developer",
-      company: "Startup XYZ",
-      period: "2020 - 2022",
-      description: "Developed and maintained React applications, collaborated with design team, and implemented new features.",
-      achievements: [
-        "Built 10+ reusable components",
-        "Reduced bundle size by 30%",
-        "Implemented testing suite"
+        "Built academic projects: Loan System, Gym Management, Voting System",
+        "Strengthening core skills in React, Node.js, and Java"
       ]
     }
   ];
@@ -32,10 +19,10 @@ const Resume = () => {
   const education = [
     {
       id: 1,
-      degree: "Bachelor of Computer Science",
+      degree: "B.Sc. Information Technology",
       institution: "University of Technology",
-      period: "2016 - 2020",
-      description: "Graduated with honors. Focus on web technologies and software engineering."
+      period: "2022 - 2025",
+      description: "Coursework focused on web development, data structures, and software engineering fundamentals."
     }
   ];
 

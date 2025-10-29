@@ -4,22 +4,24 @@ import '../styles/Skills.css';
 const Skills = () => {
   const skills = {
     frontend: [
-      { name: "React", level: 90 },
-      { name: "JavaScript", level: 85 },
-      { name: "HTML/CSS", level: 95 },
-      { name: "TypeScript", level: 80 }
+      { name: "HTML/CSS", level: 85 },
+      { name: "JavaScript", level: 75 },
+      { name: "React", level: 70 },
+      { name: "Bootstrap/Tailwind", level: 70 }
     ],
     backend: [
-      { name: "Node.js", level: 80 },
-      { name: "Express", level: 75 },
-      { name: "MongoDB", level: 70 },
-      { name: "PostgreSQL", level: 65 }
+      { name: "Node.js", level: 65 },
+      { name: "Express", level: 60 },
+      { name: "MongoDB", level: 60 },
+      { name: "SQL (PostgreSQL/MySQL)", level: 60 },
+      { name: "Java (Basics)", level: 55 }
     ],
     tools: [
-      { name: "Git", level: 90 },
-      { name: "Docker", level: 70 },
-      { name: "AWS", level: 65 },
-      { name: "Figma", level: 80 }
+      { name: "Git & GitHub", level: 80 },
+      { name: "VS Code", level: 85 },
+      { name: "Postman", level: 40 },
+      { name: "Firebase", level: 35 },
+      { name: "Netlify/Vercel", level: 40 }
     ]
   };
 

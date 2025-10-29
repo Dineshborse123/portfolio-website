@@ -11,10 +11,10 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
+      title: "Online Loan Application & Verification System",
       description:
-        "A full-stack e-commerce solution with React, Node.js, and MongoDB featuring user authentication, payment processing, and admin dashboard.",
-      technologies: ["React", "Node.js", "MongoDB", "Express", "Stripe"],
+        "B.Sc. IT academic project using React and Node.js. Users submit loan applications with document upload and basic KYC. Admins review, approve/reject, and update status. Focus on authentication, forms, and secure data storage.",
+      technologies: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "MongoDB"],
       image: "/images/project1.jpg",
       github: "https://github.com/username/ecommerce-platform",
       live: "https://ecommerce-demo.netlify.app",
@@ -23,10 +23,10 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "Task Management App",
+      title: "GYM Management System",
       description:
-        "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      technologies: ["React", "Firebase", "Material-UI", "Context API"],
+        "College project to manage gym memberships, attendance, trainer schedules, and class bookings. Includes simple payment tracking and a clean dashboard. Built as part of B.Sc. IT coursework.",
+      technologies: ["HTML", "CSS", "JavaScript", "React", "Firebase"],
       image: "/images/project2.jpg",
       github: "https://github.com/username/task-manager",
       live: "https://taskapp-demo.netlify.app",
@@ -35,10 +35,10 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: "Weather Dashboard",
+      title: "Online Voting System",
       description:
-        "Real-time weather forecasting application with interactive maps, location-based services, and historical data visualization.",
-      technologies: ["React", "Chart.js", "OpenWeather API", "Leaflet"],
+        "Academic project implementing secure voter registration with OTP verification and role-based access. Students cast votes once; admins see a live tally and basic audit logs. Built during B.Sc. IT.",
+      technologies: ["HTML", "CSS", "JavaScript", "React", "Node.js", "PostgreSQL"],
       image: "/images/project3.jpg",
       github: "https://github.com/username/weather-dashboard",
       live: "https://weather-dash-demo.netlify.app",
@@ -70,24 +70,7 @@ const Projects = () => {
                     </span>
                   ))}
                 </div>
-                <div className="project-links">
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn-secondary"
-                  >
-                    GitHub
-                  </a>
-                  <a
-                    href={project.live}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn-primary"
-                  >
-                    Live Demo
-                  </a>
-                </div>
+                
               </div>
             </div>
           ))}
